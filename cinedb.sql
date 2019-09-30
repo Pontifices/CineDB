@@ -924,6 +924,52 @@ ALTER TABLE `tipo_descuento`
 --
 ALTER TABLE `tipo_pago`
   MODIFY `id_tipo_pago` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  
+--
+-- AUTO_INCREMENT de la tabla `tipo_pago`
+--
+ALTER TABLE `director`
+  MODIFY `id_director` int(11) NOT NULL AUTO_INCREMENT;
+  
+--
+-- AUTO_INCREMENT de la tabla `tipo_pago`
+--
+ALTER TABLE `genero`
+  MODIFY `id_genero` int(11) NOT NULL AUTO_INCREMENT;
+  
+--
+-- AUTO_INCREMENT de la tabla `tipo_pago`
+--
+ALTER TABLE `menu_consumible`
+  MODIFY `id_consumible` int(11) NOT NULL AUTO_INCREMENT;
+  
+--
+-- AUTO_INCREMENT de la tabla `tipo_pago`
+--
+ALTER TABLE `caracteristica_asiento`
+  MODIFY `id_caracteristica` int(11) NOT NULL AUTO_INCREMENT;
+  
+--
+-- AUTO_INCREMENT de la tabla `tipo_pago`
+--
+ALTER TABLE `caracteristica_funcion`
+  MODIFY `id_caracteristica` int(11) NOT NULL AUTO_INCREMENT;
+  
+--
+-- AUTO_INCREMENT de la tabla `tipo_pago`
+--
+ALTER TABLE `boleto`
+  MODIFY `id_boleto` int(11) NOT NULL AUTO_INCREMENT;
+  
+--
+-- AUTO_INCREMENT de la tabla `tipo_pago`
+--
+ALTER TABLE `sucursal`
+  MODIFY `id_sucursal` int(11) NOT NULL AUTO_INCREMENT;
+
+
+
+
 
 --
 -- Restricciones para tablas volcadas
@@ -1041,3 +1087,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
